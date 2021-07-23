@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="sass/style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <a href="#"><img src="./images/logo.svg" alt="website logo" /></a>
+        <h1 class="header__title">We are launching <span>soon!</span></h1>
+        <p class="header__sub--title">Subscribe and get notified</p>
+        <div class="form">
+          <form action="#">
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="form__email"
+              id="email"
+            />
+            <small id="text"></small>
+            <button type="button" id="notif" class="form__submit">
+              Nofify Me
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="img">
+        <img src="./images/illustration-dashboard.png" alt />
+      </div>
+      <div class="social-icon">
+        <div class="icon">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; Copyright Ping. All rights reserved.</p>
+      </div>
+    </main>
+    <!-- We are launching soon!
+
+  Subscribe and get notified
+
+  Notify Me
+
+  &copy; Copyright Ping. All rights reserved. -->
+
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Benjo Quilario</a>.
+      </p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
