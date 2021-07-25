@@ -7,11 +7,11 @@ function validation() {
     /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
   if (email.value.match(validRegex)) {
-    submit.style.width = "480px";
-    email.style.display = "none";
+    submit.disabled = true;
+    submit.style.width = "50vw";
     submit.textContent = "We sent a notification! Thank you ❤❤";
     text.style.display = "none";
-    submit.disabled = true;
+    email.style.display = "none";
   } else {
     email.classList.remove("valid");
     email.classList.add("invalid");
